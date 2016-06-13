@@ -266,6 +266,10 @@ section h3.section-subheading{
 @media (min-width:1200px){
 	.portfolio-item .portfolio-link {
 		max-height: 260px; 
+		min-height: 260px;
+	}
+	img.weather_img {
+		min-height: 260px; 
 	}
 }
 
@@ -631,5 +635,7 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 img::selection{background:0 0}
 img::-moz-selection{background:0 0}
 body{webkit-tap-highlight-color:#fed136}
+
+.orange {color: orange;}
 
 
