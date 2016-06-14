@@ -248,7 +248,7 @@ section h3.section-subheading{
 	margin:0 auto;
 	overflow: hidden;
 }
-@media (min-width:400px) and (max-width:767px){
+@media (min-width:400px) {
 	.portfolio-item .porfolio-link {
 		max-height: 200px; 
 	}
@@ -257,10 +257,16 @@ section h3.section-subheading{
 	.portfolio-item .portfolio-link {
 		max-height: 249px;
 	}
+	img.weather_img, img.pokemon_img, img.poke_img{
+		min-height: 260px;
+	}
 }
 @media (min-width:992px){
 	.portfolio-item .portfolio-link {
 		max-height: 211px; 
+	}
+	img.weather_img, img.pokemon_img, img.poke_img {
+		min-height: 220px;
 	}
 }
 @media (min-width:1200px){
@@ -268,7 +274,7 @@ section h3.section-subheading{
 		max-height: 260px; 
 		min-height: 260px;
 	}
-	img.weather_img {
+	img.weather_img, img.pokemon_img, img.poke_img{
 		min-height: 260px; 
 	}
 }
@@ -595,7 +601,7 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 	margin-top:0
 }
 /* Masonry images */
-.portfolio-modal .modal-content img{
+#portfolioModal1 .modal-content img{
 	width: 300px;
 	/*float: left; */
 	margin: 5px 0px; 
@@ -637,5 +643,6 @@ img::-moz-selection{background:0 0}
 body{webkit-tap-highlight-color:#fed136}
 
 .orange {color: orange;}
+.justify{text-align: justify;}
 
 
