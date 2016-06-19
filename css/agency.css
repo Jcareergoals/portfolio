@@ -10,7 +10,8 @@ p{
 }
 p.large{font-size:16px}
 a,a:hover,a:focus,a:active,a.active{outline:0}
-a{color:#fed136}
+/*a{color:#fed122}*/
+a{color: orange; }
 a:hover,a:focus,a:active,a.active{color:#fec503}
 h1,h2,h3,h4,h5,h6{
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -155,7 +156,7 @@ h1,h2,h3,h4,h5,h6{
 	}
 }
 header{
-	background-image:url(../img/DSC_1575.jpg);
+	background-image:url(../img/photography/DSC_1575.JPG);
 	background-repeat:none;
 	background-attachment:scroll;
 	background-position:center center;
@@ -230,6 +231,7 @@ section h3.section-subheading{
 	font-weight:400;
 	margin-bottom:75px
 }
+.sub {color: rgb(225,225,225);}
 @media (min-width:768px){
 	section{padding:150px 0}
 }
@@ -645,4 +647,6 @@ body{webkit-tap-highlight-color:#fed136}
 .orange {color: orange;}
 .justify{text-align: justify;}
 
-
+.red {color: red;}
+.blue {color: blue;}
+.silver {color: rgb(170,170,170);}
