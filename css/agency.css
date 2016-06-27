@@ -259,7 +259,7 @@ section h3.section-subheading{
 	.portfolio-item .portfolio-link {
 		max-height: 249px;
 	}
-	img.weather_img, img.pokemon_img, img.poke_img{
+	img.weather_img, img.pokemon_img, img.poke_img, img.chat_img {
 		min-height: 260px;
 	}
 }
@@ -267,7 +267,7 @@ section h3.section-subheading{
 	.portfolio-item .portfolio-link {
 		max-height: 211px; 
 	}
-	img.weather_img, img.pokemon_img, img.poke_img {
+	img.weather_img, img.pokemon_img, img.poke_img, img.chat_img {
 		min-height: 220px;
 	}
 }
@@ -276,7 +276,7 @@ section h3.section-subheading{
 		max-height: 260px; 
 		min-height: 260px;
 	}
-	img.weather_img, img.pokemon_img, img.poke_img{
+	img.weather_img, img.pokemon_img, img.poke_img, img.chat_img{
 		min-height: 260px; 
 	}
 }
